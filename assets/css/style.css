@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    line-height: 2;
+    font-family: 'Poppins', sans-serif;
+    color: #f49d19;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: #000000 !important;
+}
+
+#navLogo{
+    margin-right: 23%;
+    overflow: hidden;
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+.nav-link:hover{
+    color: #f49d19 !important;
+}
+
+.active{ 
+    color: #f49d19 !important;
+}
+
+#imageLogo{
+    transform: scale(1.4);
+}
+
+/* headbanner */
+
+#home-head-banner{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),
+     url('../pictures/gjirokaster2.jpg')rgba(0,0,0,0.6);
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: multiply;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+#home-head-banner-contact{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),
+     url('../pictures/lybesha-foto-pershkrimi-1.jpg')rgba(0,0,0,0.6);
+     background-size: cover;
+     background-position: center;
+     background-blend-mode: multiply;
+     height: 400px;
+     display: flex;
+     align-items: center;
+}
+
+#home-head-banner-gallery{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),
+     url('../pictures/0_vVR3OTejp92fKJ2Q.jpg')rgba(0,0,0,0.6);
+     background-size: cover;
+     background-position: center;
+     background-blend-mode: multiply;
+     height: 400px;
+     display: flex;
+     align-items: center;
+}
+
+#home-head-banner-services{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),
+     url('../pictures/0_vVR3OTejp92fKJ2.jpg')rgba(0,0,0,0.6);
+     background-size: cover;
+     background-position: center;
+     background-blend-mode: multiply;
+     height: 400px;
+     display: flex;
+     align-items: center;
+}
+
+#home-head-banner-about{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),
+     url('../pictures/CUTJ2Ty_cleanup.jpg')rgba(0,0,0,0.6);
+     background-size: cover;
+     background-position: center;
+     background-blend-mode: multiply;
+     height: 400px;
+     display: flex;
+     align-items: center;
+}
+
+/* about */
+
+#about{
+    background-color:  rgba(0,0,0,1);
+    position: relative;
+}
+
+.lead img{
+    padding-bottom: 20px;
+}
+
+#buttonAbout{
+    font-size: 12px !important;
+    line-height: 20px !important;
+    padding: 10px 30px !important;
+    margin: 0 0 !important;
+    color: #fff;
+    border-color: #f49d19;
+    background-color: #f49d19 !important;
+}
+
+#buttonAbout:hover{
+    opacity: 0.8;
+}
+
+.aboutImg img{
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}
+
+.aboutImg img:hover{
+    transform: scale(0.7);
+}
+
+/* gallery */
+
+.gallery{
+    background-color:  rgba(0,0,0,1);
+}
+
+#buttonGallery{
+    border-color: #fff !important;
+    color: #fff !important;
+}
+
+#buttonGallery:hover{
+    color: #000000 !important;
+    background-color: #fff !important;
+}
+
+@media (max-width:320px){
+    #buttonGallery{
+        font-size: 15px;
+        margin-left: 0;
+    }
+}
+
+/* back to top */
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+    visibility: hidden;
+    box-shadow: 5px 5px 5px;
+}
+
+/* services */
+
+.services{
+    background-color:  rgba(0,0,0,1);
+}
+
+.icons1{
+    border-bottom: #bfbfbf 1px solid;
+}
+
+.icons1:hover{
+    border-bottom: transparent;
+}
+
+.icons2{
+    border-left: #bfbfbf 1px solid;
+    border-right: #bfbfbf 1px solid;
+    border-bottom: #bfbfbf 1px solid;
+}
+
+.icons2:hover{
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+}
+
+.icons3{
+    border-bottom: #bfbfbf 1px solid;
+}
+
+.icons3:hover{
+    border-bottom: transparent;
+}
+
+.icons4{
+    border-left: #bfbfbf 1px solid;
+    border-right: #bfbfbf 1px solid;
+}
+
+.icons4:hover{
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.icons img{
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}
+
+.icons img:hover{
+    transform: scale(0.5);
+}
+
+.icons p{
+    font-family: 'Myriad Pro';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icons p:hover{
+    color: #f49d19 !important;
+}
+
+#servicesButton{
+    border-color: #fff !important;
+    color: #fff !important;
+}
+
+#servicesButton:hover{
+    background-color: #fff !important;
+    color: #000000 !important;
+}
+
+@media (max-width:768px){
+    .icons1{
+        border-bottom: transparent;
+    }
+
+    .icons2{
+        border-left: transparent;
+        border-right: transparent;
+        border-bottom: transparent;
+    }
+
+    .icons3{
+        border-bottom: transparent;
+    }
+
+    .icons4{
+        border-left: transparent;
+        border-right: transparent;
+    }
+}
+
+/* contact page */
+
+#cardContact{
+    background-color: rgba(0,0,0,1);
+}
+
+.textContact{
+    color: #fff !important;
+}
+
+/* gallery overlay effect */
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f49d19;
+}
+
+.img-overlay:hover .overlay{
+    opacity: 0.8;
+}
+
+.img-overlay{
+    position: relative;
+    cursor: pointer;
+}
+
+.description{
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+@media (max-width:768px){
+    .description{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:360px){
+    .description{
+        font-size: 7px;
+    }
+}
+
+/* services& about sections */
+
+.sectionOne, .sectionTwo, .aboutOne, .aboutTwo{
+    background-color: #000000 !important;
+}
+
+.card{
+    background-color: transparent !important;
+    border-color: #f49d19 !important;
+}
